@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: aqua;
   color: black;
   font-family: darlington-signature;
@@ -9,4 +9,28 @@ body {
 
 #submit {
   color: green;
+}
+ */
+
+body {
+  background-color: aqua;
+  color: black;
+  font-family: darlington-signature;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  word-spacing: 2px;
+}
+#submit,
+#reset {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.NuInf {
+  word-spacing: 14px;
+  text-align: center;
 }
