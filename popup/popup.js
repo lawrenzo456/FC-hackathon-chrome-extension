@@ -49,7 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log('Fetch Error: ', err);
     }
   }
-
   const reset = document
     .getElementById('reset')
     .addEventListener(onclick, () => alert('Reset'));
