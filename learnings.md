@@ -11,6 +11,8 @@ putting files into the same folder will help because it allows for easier access
 
 chrome doesn't like in-line functions and we have to use function calls from js
 
+when including a function on an event listener, you have to include it in an arrow function / callback that processes the event (in this case, click and submit needed prevent default).
+
 [
 {
 "name": "egg",
